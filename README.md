@@ -2,6 +2,8 @@
 
 A dynamic visualization of 2-meter temperature patterns across South Asia using R and Copernicus Climate Data Store.
 
+![temperature_animation_final](https://github.com/user-attachments/assets/965a020e-682f-4e82-b6ff-28e5e3518a2a)
+
 ## 📋 Overview
 
 This project creates an animated temperature map showing monthly temperature variations across South Asia and surrounding regions. The visualization transforms complex meteorological data from the Copernicus Climate Change Service into an intuitive, color-coded animation that reveals seasonal temperature patterns and regional climate dynamics.
@@ -101,10 +103,6 @@ Contributions are welcome! Please feel free to:
 - Suggest new features
 - Submit pull requests
 - Share feedback on visualizations
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
