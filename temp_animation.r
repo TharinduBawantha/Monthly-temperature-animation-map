@@ -1,9 +1,6 @@
 # ===============================================================================
 # Temperature Data Visualization and Animation Script
 # ===============================================================================
-# This script reads NetCDF climate data and creates animated temperature maps
-# using data from the Copernicus Climate Change Service (C3S)
-
 # Load required libraries
 library(ncdf4)     # For reading NetCDF files
 library(fields)    # For color scales and image plotting functions
@@ -16,7 +13,7 @@ library(sf)        # For spatial data handling
 # ===============================================================================
 
 # Open the NetCDF file containing temperature data
-nc_file <- nc_open("data_stream-moda.nc")
+nc_file <- nc_open("data_stream-moda.nc") #use your download file name
 
 # Extract coordinate variables from the NetCDF file
 lon <- ncvar_get(nc_file, "longitude")    # Longitude coordinates
